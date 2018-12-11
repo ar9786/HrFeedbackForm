@@ -1,0 +1,253 @@
+        body {
+            background: #fff7f0;
+        }
+		.hr-form {
+    background: #fff7f0;
+    font-family: 'Lora', serif;
+    padding-top: 50px;
+    background: url(https://www.loginworks.net/form/images/logo.png);
+    background-size: 438px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+		.rateYo{
+			margin-left: 45px;
+		}
+		.formerror{
+			color:red;
+			padding:0px 0px 0px 12px;
+		}
+        .img-responsive {
+            max-width: 100%;
+        }
+
+        .hr-form .main-banner {
+            text-align: center;
+        }
+
+        .hr-form .main-banner img{display:inline-block;}
+
+        .hr-form .main-banner+p {
+            text-align: center;
+            color: #3E4C5C;
+            line-height: 28px;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .bdr-radius-right{border-radius: 0px 4px 4px 0px;}
+        .hr-form .main-banner+p+label strong {
+            color: #63625f;
+            font-size: 16px;
+            text-align: center;
+            display: block;
+        }
+		/*
+        .hr-form button {
+            font-size: 25px;
+            background: #83e2d9;
+            border-radius: 6px;
+            border: 0px;
+            padding: 10px 20px;
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+		.hr-form button a{
+			text-decoration: none;
+			color: #fff;
+		}*/
+        .hr-sep label {
+            background: #fcf7f3;
+        }
+
+        .hr-sep {
+            background: rgba(129, 147, 161, 0.05);
+            text-align: center;
+            border: solid 1px #8193A1;
+            border-radius: 6px;
+            padding: 15px;
+            float: left;
+            margin-bottom: 15px;
+        }
+
+        .hr-sep button {
+            color: #8193A1;
+            border-radius: 4px;
+            border: 1px solid #8193A1;
+            float: left;
+
+        }
+
+        .btn-cntnr {
+            display: block;
+        }
+
+        .btn-cntnr p {
+            color: #8193A1;
+            float: left;
+            margin: 0px 0px 0px 10px;
+        }
+
+        .hr-form-2 {
+            margin-top: 15px;
+        }
+
+        .hr-form-2 h2 {
+            font-size: 24px;
+            line-height: 32px;
+            color: rgb(62, 76, 92);
+            font-weight: unset;
+            margin: 30px 0px 30px 0px;
+
+        }
+
+        .SVGInline-svg {
+            fill: rgb(129, 147, 161);
+            transition: fill 0.2s;
+            vertical-align: middle;
+            margin: -6px 8px 0px 0px;
+
+        }
+
+        .hr-form-2 input[type="text"] {
+            border: 0px;
+            border-bottom: solid 1px #ccc;
+            width: 100%;
+            margin-bottom: 20px;
+            font-size: 30px;
+            font-weight: normal;
+            line-height: 1.25;
+            padding-bottom: 5px;
+            background: transparent;
+        }
+
+        .glyphicon {
+            position: relative;
+            top: 1px;
+            display: inline-block;
+            font-family: 'Glyphicons Halflings';
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1;
+            color: rgb(129, 147, 161);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-size: 40px;
+        }
+
+        
+        .rating {
+            clear: both;
+            float: left;
+            display: block;
+            margin-top: -25px;
+			padding-left: 50px;
+        }
+
+        .stkv-c-block-multiple-choice--multiple-selection {
+            border-left: 1px dashed;
+            padding-left: 9px;
+        }
+
+        .stkv-us-secondary-color {
+            color: #8193A1;
+        }
+
+        .stkv-c-block-hint {
+            padding: 0;
+            margin: 0 0 15px;
+            font-size: 16px;
+            line-height: 22px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .border-sep {
+            border-left: dotted 2px #ccc;
+            float: left;
+            clear: both;
+            padding-left: 10px;
+            margin-left: 20px;
+        }
+
+        .border-sep .box {
+            border: solid 1px #ccc;
+            padding: 10px;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .border-sep button {
+            color: #8193A1;
+            border-radius: 4px;
+            border: 1px solid #8193A1;
+            /* float: left; */
+            margin-right: 10px;
+            font-size: 15px;
+            vertical-align: middle;
+        }
+
+        .waiting-div {
+            /* background: rgba(129, 147, 161, 0.1); */
+            margin-bottom: 30px;
+            float: left;
+            width: 100%;
+        }
+
+        .waiting-div .col-md-2 {
+            text-align: center;
+            border: solid 1px rgb(129, 147, 161);
+            padding: 15px;
+            border-right: 0px;
+            background: rgba(129, 147, 161, 0.1);
+        }
+
+        .waiting-div .col-md-2:nth-child(5) {
+            border-right: solid 1px rgb(129, 147, 161);
+        }
+
+        .waiting-div .no-bdr {
+            border: 0px !important;
+            padding: 0px;
+            background: transparent;
+        }
+
+        .waiting-div .col-md-4 {
+            text-align: right;
+        }
+
+        .waiting-div {
+            /* background: rgba(129, 147, 161, 0.1); */
+            margin-bottom: 30px;
+            float: left;
+            width: 100%;
+            padding-left: 60px;
+        }
+
+        body>div>div>div.waiting-div>div:nth-child(6) {
+            text-align: left
+        }
+
+        .bdr-radius {
+            border-radius: 4px 0px 0px 4px;
+        }
+
+        .bdr-radius-right {
+            border-radius: 0px 4px 4px 0px;
+        }
+
+        .button {
+            background: #83e2d9;
+            color: #fff;
+            clear: both;
+            display: block;
+            border: 0px;
+            border: 0px;
+            width: 160px;
+            margin-bottom: 20px;
+            padding: 10px;
+            font-size: 20px;
+            margin: auto;
+            margin-bottom: 20px;
+        }

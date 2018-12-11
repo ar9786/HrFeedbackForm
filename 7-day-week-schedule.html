@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>7 Day Week Schedule</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+	*{margin:0px; padding:0px;}
+	.my-div {
+    width: 13%;
+    margin-right: 1%;
+    background: #ffffff;
+    height: 200px;
+    float: left;
+    margin-bottom: 10px;
+	border: 1px solid;
+    border-radius: 6px;
+}
+
+	.wraper .my-div:nth-child(7n+0){margin-right:0px; background:#1c69a5}
+	.week-wrapper {
+	display:table;
+	width: 100%;
+	}
+	.week{
+	display: table-cell;
+        width: 14%;
+        text-align: center;
+	}
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>7 Day Week Schedule</h2>
+	<div class="container my-div-cnt">
+	<div class="week-wrapper">
+	<div class="week">
+		<p>Sunday</p>
+	</div>
+	<div class="week">
+		<p>Monday</p>
+	</div>
+	<div class="week">
+		<p>Tuesday</p>
+	</div>
+	<div class="week">
+		<p>Wednesday</p>
+	</div>
+	<div class="week">
+		<p>Thursday</p>
+	</div>
+	<div class="week">
+		<p>Friday</p>
+	</div>
+	<div class="week">
+		<p>Saturday</p>
+	</div>
+	</div>
+	<div class="wraper">
+	<div class="my-div">
+		<div class="div-row">
+		<p><strong>1.</strong>Wendy's </p><p><span>4 miles to next</span> <span>$1,200</span></p>
+		</div>
+		<div class="div-row">
+		<p><strong>2.</strong>Wendy's </p><p><span>4 miles to next</span> <span>$1,200</span></p>
+		</div>
+		<div class="div-row">
+		<p><strong>3.</strong>Wendy's </p><p><span>4 miles to next</span> <span>$1,200</span></p>
+		</div>
+	</div>
+	<div class="my-div">
+		
+	</div>
+	
+	<div class="my-div">
+		
+		
+	</div>
+	<div class="my-div">
+		
+		
+	</div>
+	<div class="my-div">
+		
+		
+	</div>
+	<div class="my-div">
+		
+		
+	</div>
+	<div class="my-div">
+		
+		
+	</div>
+	<div class="my-div">
+		
+		
+	</div>
+	<div class="my-div">
+		
+		
+	</div> <div class="my-div">
+		
+		
+	</div>
+	<div class="my-div">
+		
+		
+	</div>
+	<div class="my-div">
+		
+		
+	</div>
+	<div class="my-div">
+		
+		
+	</div>
+	<div class="my-div">
+		
+		
+	</div>
+	<div class="my-div">
+		
+		
+	</div>
+	<div class="my-div">
+		
+		
+	</div>
+	<div class="my-div">
+		
+		
+	</div>
+	<div class="my-div">
+		
+		
+	</div>
+	</div>
+  
+</div>
+<script>
+const URL = "https://www.loginworks.net/form/api.php";
+	$.ajax({
+                url: URL,
+                type: 'GET',
+				dataType: "jsonp",
+				data: "callback=?",
+                success: function (results) {
+					alert(results);
+					console.log(results);
+                },
+				error: function(XMLHttpRequest, textStatus, errorThrown) { 
+                    alert("Status: " + textStatus);
+                }
+               
+        });
+</script>
+</body>
+</html>
+
